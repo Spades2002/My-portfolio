@@ -43,7 +43,7 @@ enableRobotsTXT = true
     [params.hero.button]
       enable = true
       name = "Download CV"
-      url = "static/Staines CV.pdf"
+      url = "static/CV.pdf"
       download = true
       newPage = false
     [[params.hero.socialLinks.fontAwesomeIcons]]
