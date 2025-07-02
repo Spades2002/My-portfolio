@@ -17,10 +17,10 @@ Hugo ships with several [Embedded Shortcodes](https://gohugo.io/content-manageme
 ## X Simple Shortcode
 ```
 {{</* x user="GoHugoIO" id="1315233626070503424" */>}}
-```
-<br>
-{{< x user="GoHugoIO" id="1315233626070503424" >}}
-<br>
+#```
+##<br>
+##{{< x user="GoHugoIO" id="1315233626070503424" >}}
+##<br>
 
 
 
