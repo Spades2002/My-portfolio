@@ -168,6 +168,9 @@ Key Modules:
     [[params.achievements.items]]
       title = "PLC Programming"
       content = "Udemy"
+    [[params.achievements.items]]
+      title = "Machine Learning at the edge"
+      content = "Arm"
 
   [params.projects]
   enable = true
