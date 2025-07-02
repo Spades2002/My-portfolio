@@ -43,7 +43,7 @@ enableRobotsTXT = true
     [params.hero.button]
       enable = true
       name = "Download CV"
-      url = "static/CV.pdf"
+      url = "/CV.pdf"
       download = true
       newPage = false
     [[params.hero.socialLinks.fontAwesomeIcons]]
@@ -51,7 +51,7 @@ enableRobotsTXT = true
       url = "https://github.com/Spades2002"
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fab fa-linkedin"
-      url = "linkedin.com/in/stainesrajith"
+      url = "https://linkedin.com/in/stainesrajith"
 
   [params.about]
     enable = true
@@ -221,7 +221,7 @@ Key Modules:
 
   [params.footer.socialNetworks]
     github = "https://github.com/Spades2002"
-    linkedin = "linkedin.com/in/stainesrajith"
+    linkedin = "https://linkedin.com/in/stainesrajith"
 
 [markup.goldmark.renderer]
   unsafe = true
