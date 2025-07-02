@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other Projects on Staines Portfolio</title>
+    <link>http://localhost:1313/projects1/</link>
+    <description>Recent content in Other Projects on Staines Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Campus Transport System</title>
+      <link>http://localhost:1313/projects1/campus-transport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects1/campus-transport/</guid>
+      <description>&lt;h1 id=&#34;eco-friendly-intra-campus-monorail-system-design&#34;&gt;Eco-Friendly Intra-Campus Monorail System Design&lt;/h1&gt;&#xA;&lt;p&gt;This project focused on the conceptual design of an eco-friendly intra-campus monorail system for WSP, aimed at enhancing transport efficiency and sustainability. As the project lead, I conducted a comprehensive route analysis to determine the most effective layout, prioritising accessibility, environmental impact, and integration with existing campus infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;A key aspect of the design process involved engineering high-capacity carriages tailored for optimal passenger experience. This included advanced HVAC systems to ensure energy-efficient climate control and specialised accommodations for elderly passengers, improving accessibility and inclusivity. Additionally, sustainability was at the forefront of the project, with careful material selection and energy-efficient propulsion methods incorporated into the design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Job Finder</title>
+      <link>http://localhost:1313/projects1/job-finder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects1/job-finder/</guid>
+      <description>&lt;h1 id=&#34;engineering-job-finder&#34;&gt;Engineering Job Finder&lt;/h1&gt;&#xA;&lt;p&gt;This project focuses on creating an efficient platform for users to find engineering job opportunities using web scraping. The platform was built with Python and leverages various job listing APIs for real-time data retrieval. The aim was to automate the job search process and provide users with an intuitive interface.&lt;/p&gt;&#xA;&lt;p&gt;Key Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web Scraping: Real-time job data retrieval using libraries such as BeautifulSoup and Scrapy.&lt;/li&gt;&#xA;&lt;li&gt;User Interface: Designed using Streamlit with interactive features for a seamless user experience.&lt;/li&gt;&#xA;&lt;li&gt;Custom Filters: Allow users to filter job opportunities based on location, industry, and more.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Key Innovations:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gymnastics Robot</title>
+      <link>http://localhost:1313/projects1/gymnastics-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects1/gymnastics-robot/</guid>
+      <description>&lt;h1 id=&#34;stamp-bug-and-rover-for-gymnastics&#34;&gt;Stamp-bug and Rover for Gymnastics&lt;/h1&gt;&#xA;&lt;p&gt;In this project, I led a team of engineers in the development of an innovative gymnastics stamp bug and rover, designed to merge engineering with artistic performance. This unique system aimed to enhance gymnastic routines through synchronised movement and visual effects. To achieve this, I designed and programmed LED arrays that operated in perfect synchrony with music, creating dynamic light displays that complemented the choreography.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Real-time Colour and Object Detection</title>
+      <link>http://localhost:1313/projects1/object-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects1/object-detection/</guid>
+      <description>&lt;h1 id=&#34;real-time-colour-and-object-detection-using-opencv&#34;&gt;Real-time Colour and Object Detection Using OpenCV&lt;/h1&gt;&#xA;&lt;p&gt;This project combines two fundamental computer vision tasks into a single real-time system. Using a webcam feed, it detects objects via YOLOv8 (a state-of-the-art deep learning model) while simultaneously classifying colours at the screen centre with a K-Nearest Neighbours algorithm. The colour classifier was trained on a dataset of 865 named colours, enabling precise identification like &amp;ldquo;Olive Drab&amp;rdquo; or &amp;ldquo;Cadet Blue&amp;rdquo; from RGB values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Roll-angle measurement device</title>
+      <link>http://localhost:1313/projects1/roll-angle-device/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects1/roll-angle-device/</guid>
+      <description>&lt;h1 id=&#34;fibre-optic-sagnac-interferometer-for-high-precision-rotation-measurement&#34;&gt;Fibre Optic Sagnac Interferometer for High-Precision Rotation Measurement&lt;/h1&gt;&#xA;&lt;p&gt;In this project, I developed a system based on a fibre optic Sagnac interferometer, designed to measure axial rotation with exceptional precision. Rotation sensors are becoming increasingly integral to many of the technologies we rely on in our daily lives, and this project aimed to enhance the accuracy of such measurements. To achieve this, I conducted a comprehensive review of existing sensors and literature related to interferometers. I also utilised an oscilloscope to capture and analyse data, which was then used to validate the system’s performance and ensure the project’s objectives were met.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
