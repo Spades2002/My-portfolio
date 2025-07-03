@@ -65,53 +65,6 @@ My core expertise lies in automation, control systems, and robotics — includin
 These experiences drive my commitment to developing technologies that address global challenges and create meaningful, cross-context solutions.
 """
 
-
- [params.experience]
-  enable = true
-  [[params.experience.items]]
-    job = "Retail Assistant"
-    company = "Smyths Toy Store"
-    date = "Nov 2024 - Dec 2024"
-    content = """
-- Enhanced customer experience by resolving complex product enquiries and guiding purchasing decisions through expert product knowledge
-- Optimised store operations by reorganising high-traffic displays and implementing efficient stock tracking methods
-- Maintained visual merchandising standards that increased product visibility and sales performance
-- Streamlined stock management processes, reducing discrepancies and improving replenishment efficiency
-"""
-
-  [[params.experience.items]]
-    job = "Control Engineering Intern"
-    company = "First Quantum Minerals Ltd"
-    date = "Jul 2022 - Aug 2022"
-    content = """
-- Optimised industrial equipment performance by collaborating with supervisors to maintain peak copper smelter efficiency
-- Engineered a fully functional traffic light system using Siemens PLC and ladder logic, demonstrating advanced automation skills
-- Mastered CODESYS programming using structured text and ladder logic to streamline industrial processes
-- Presented comprehensive project results to management, showcasing problem-solving and technical expertise in PLC systems
-"""
-
-  [[params.experience.items]]
-    job = "Teaching Assistant"
-    company = "Trident College"
-    date = "Jan 2021 - Mar 2021"
-    content = """
-- Elevated A-level student performance through targeted one-to-one tutoring in mathematics and sciences
-- Designed and supervised laboratory experiments while enforcing strict safety standards
-- Collaborated with faculty to develop engaging lesson materials that improved classroom outcomes
-- Provided specialised music tutoring, helping students prepare for practical examinations
-"""
-
-  [[params.experience.items]]
-    job = "Technical Team Assistant"
-    company = "First Quantum Minerals Ltd"
-    date = "Nov 2018 - Dec 2018"
-    content = """
-- Improved machinery reliability through proactive monitoring and maintenance in copper smelting operations
-- Enhanced furnace performance by optimising air cooler functionality and increasing airflow efficiency
-- Prevented operational disruptions by identifying and reporting equipment abnormalities to supervisors
-- Maintained 98% equipment uptime through rigorous adherence to safety and maintenance protocols
-"""
-
 [params.education]
   enable = true
 
@@ -131,7 +84,7 @@ These experiences drive my commitment to developing technologies that address gl
 Key Projects:
 - Eco-Friendly Intra-Campus Monorail System Design
 - Gymnastics Stamp-bug and Rover
-- Roll-angle measurement device
+- Roll-angle Measurement Device
 
 Key Modules:
 - State Space Control
@@ -215,12 +168,58 @@ Key Modules:
     badges = ["Robotics", "Control Systems", "Mechatronics"]
     featured = { name = "Download Datasheet", link = "/Datasheet for stampbug.pdf" }
 
+ [params.experience]
+  enable = true
+  [[params.experience.items]]
+    job = "Retail Assistant"
+    company = "Smyths Toy Store"
+    date = "Nov 2024 - Dec 2024"
+    content = """
+- Enhanced customer experience by resolving complex product enquiries and guiding purchasing decisions through expert product knowledge
+- Optimised store operations by reorganising high-traffic displays and implementing efficient stock tracking methods
+- Maintained visual merchandising standards that increased product visibility and sales performance
+- Streamlined stock management processes, reducing discrepancies and improving replenishment efficiency
+"""
+
+  [[params.experience.items]]
+    job = "Control Engineering Intern"
+    company = "First Quantum Minerals Ltd"
+    date = "Jul 2022 - Aug 2022"
+    content = """
+- Optimised industrial equipment performance by collaborating with supervisors to maintain peak copper smelter efficiency
+- Engineered a fully functional traffic light system using Siemens PLC and ladder logic, demonstrating advanced automation skills
+- Mastered CODESYS programming using structured text and ladder logic to streamline industrial processes
+- Presented comprehensive project results to management, showcasing problem-solving and technical expertise in PLC systems
+"""
+
+  [[params.experience.items]]
+    job = "Teaching Assistant"
+    company = "Trident College"
+    date = "Jan 2021 - Mar 2021"
+    content = """
+- Elevated A-level student performance through targeted one-to-one tutoring in mathematics and sciences
+- Designed and supervised laboratory experiments while enforcing strict safety standards
+- Collaborated with faculty to develop engaging lesson materials that improved classroom outcomes
+- Provided specialised music tutoring, helping students prepare for practical examinations
+"""
+
+  [[params.experience.items]]
+    job = "Technical Team Assistant"
+    company = "First Quantum Minerals Ltd"
+    date = "Nov 2018 - Dec 2018"
+    content = """
+- Improved machinery reliability through proactive monitoring and maintenance in copper smelting operations
+- Enhanced furnace performance by optimising air cooler functionality and increasing airflow efficiency
+- Prevented operational disruptions by identifying and reporting equipment abnormalities to supervisors
+- Maintained 98% equipment uptime through rigorous adherence to safety and maintenance protocols
+"""
+
 
   [params.contact]
     enable = true
     content = "My inbox is always open for collaboration, questions, or just a friendly chat!"
     btnName = "Email Me"
-    btnLink = "mailto:stainesr.27@gmail.com"
+    btnLink = "mailto:stainesr.27@outlook.com"
 
   [params.footer.socialNetworks]
     github = "https://github.com/Spades2002"
