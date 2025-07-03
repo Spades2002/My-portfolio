@@ -18,7 +18,7 @@ enableRobotsTXT = true
 
   [params.navbar]
     align = "ms-auto"
-    brandName = "My Portfolio"
+    brandName = "Staines' Portfolio"
     brandLogo = "images/logo.png"  
     brandLogoWidth = "120px"       
     disableSearch = true
@@ -67,6 +67,7 @@ These experiences drive my commitment to developing technologies that address gl
 
 [params.education]
   enable = true
+  title = "Work Experience"
 
   [[params.education.items]]
     title = "MSc Robotics and Artificial Intelligence"
