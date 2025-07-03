@@ -37,7 +37,7 @@ enableRobotsTXT = true
     intro = "Hi, my name is"
     title = "Staines Rajith"
     subtitle = "Graduate Robotics, Mechatronics & Control Engineer"
-    content = "Mechatronics specialist with a passion for automation, robotics, and data-driven systems. Proven experience in industrial PLCs, embedded programming, and AI, aiming to push the boundaries of autonomous technologies."
+    content = "Mechatronics specialist with a passion for automation, robotics, and data-driven systems. Proven experience with industrial PLCs, embedded programming, and AI, aiming to push the boundaries of autonomous technologies."
     image = "images/my-photo.jpg"
     bottomImage.enable = true
     [params.hero.button]
@@ -58,11 +58,11 @@ enableRobotsTXT = true
     title = "About Me"
     image = "images/my-photo4.jpg"
     content = """
-As a Robotics and Control Engineering graduate, I bring together technical expertise and multicultural perspectives from my journey across India, Zambia, and the UK. My 15 years in Zambia instilled a deep appreciation for resourceful problem-solving through working with limited infrastructure, cross-cultural teamwork across diverse backgrounds, and sustainable design principles shaped by witnessing technology's real-world impact in developing communities.
+As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I offer a unique perspective shaped by diverse cultural and technical environments. My 15 years in Zambia developed my ability to deliver resourceful, practical solutions in settings with limited infrastructure, fostering a strong focus on sustainable design and real-world impact.
 
-My engineering passion focuses on practical automation - from PLCs and ROS to computer vision systems - always with an eye toward adaptable solutions. This technical mindset complements my creative side as a classically trained musician (Grade 6 Piano and Saxophone), where precision meets improvisation.
+My core expertise lies in automation, control systems, and robotics — including PLCs, ROS, and computer vision — with an emphasis on adaptable, scalable solutions. Beyond engineering, I bring creative discipline as a classically trained musician and competitive focus from pursuits such as mountain biking, squash, and cross-country running.
 
-When not at my workbench, I'm usually on mountain bike trails, the squash court, or cross-country routes - physical disciplines that reinforce the focus and resilience I apply to engineering challenges. These combined experiences drive my interest in robotics solutions that bridge technological gaps between different global contexts.
+These experiences drive my commitment to developing technologies that address global challenges and create meaningful, cross-context solutions.
 """
 
 
@@ -73,8 +73,8 @@ When not at my workbench, I'm usually on mountain bike trails, the squash court,
     company = "Smyths Toy Store"
     date = "Nov 2024 - Dec 2024"
     content = """
-- Enhanced customer experience by resolving complex product inquiries and guiding purchasing decisions through expert product knowledge
-- Optimized store operations by reorganizing high-traffic displays and implementing efficient inventory tracking methods
+- Enhanced customer experience by resolving complex product enquiries and guiding purchasing decisions through expert product knowledge
+- Optimised store operations by reorganising high-traffic displays and implementing efficient stock tracking methods
 - Maintained visual merchandising standards that increased product visibility and sales performance
 - Streamlined stock management processes, reducing discrepancies and improving replenishment efficiency
 """
@@ -84,7 +84,7 @@ When not at my workbench, I'm usually on mountain bike trails, the squash court,
     company = "First Quantum Minerals Ltd"
     date = "Jul 2022 - Aug 2022"
     content = """
-- Optimized industrial equipment performance by collaborating with supervisors to maintain peak copper smelter efficiency
+- Optimised industrial equipment performance by collaborating with supervisors to maintain peak copper smelter efficiency
 - Engineered a fully functional traffic light system using Siemens PLC and ladder logic, demonstrating advanced automation skills
 - Mastered CODESYS programming using structured text and ladder logic to streamline industrial processes
 - Presented comprehensive project results to management, showcasing problem-solving and technical expertise in PLC systems
@@ -95,10 +95,10 @@ When not at my workbench, I'm usually on mountain bike trails, the squash court,
     company = "Trident College"
     date = "Jan 2021 - Mar 2021"
     content = """
-- Elevated A-level student performance through targeted one-on-one tutoring in mathematics and sciences
+- Elevated A-level student performance through targeted one-to-one tutoring in mathematics and sciences
 - Designed and supervised laboratory experiments while enforcing strict safety standards
 - Collaborated with faculty to develop engaging lesson materials that improved classroom outcomes
-- Provided specialized music tutoring, helping students prepare for practical examinations
+- Provided specialised music tutoring, helping students prepare for practical examinations
 """
 
   [[params.experience.items]]
@@ -107,7 +107,7 @@ When not at my workbench, I'm usually on mountain bike trails, the squash court,
     date = "Nov 2018 - Dec 2018"
     content = """
 - Improved machinery reliability through proactive monitoring and maintenance in copper smelting operations
-- Enhanced furnace performance by optimizing air cooler functionality and increasing airflow efficiency
+- Enhanced furnace performance by optimising air cooler functionality and increasing airflow efficiency
 - Prevented operational disruptions by identifying and reporting equipment abnormalities to supervisors
 - Maintained 98% equipment uptime through rigorous adherence to safety and maintenance protocols
 """
@@ -169,14 +169,14 @@ Key Modules:
       title = "PLC Programming"
       content = "Udemy"
     [[params.achievements.items]]
-      title = "Machine Learning at the edge"
+      title = "Machine Learning at the Edge"
       content = "Arm"
 
   [params.projects]
   enable = true
   [[params.projects.items]]
     title = "Engineering Job Finder"
-    content = "Created a platform for finding engineering jobs using web scraping and NLP. Features include real-time job data retrieval from APIs, skills matching from resumes using NLP, and an interactive Streamlit interface with custom filters."
+    content = "Created a platform for finding engineering jobs using web scraping and NLP. Features include real-time job data retrieval from APIs, skills matching from CVs using NLP, and an interactive Streamlit interface with custom filters."
     image = "images/jobfinder.png"
     badges = ["Python", "NLP", "Web Scraping", "Streamlit"]
     [[params.projects.items.links]]
@@ -185,7 +185,7 @@ Key Modules:
   
   [[params.projects.items]]
     title = "Real-time Colour and Object Detection"
-    content = "This real-time system combines YOLOv8 object detection with KNN color classification (trained on 865 named colors) via webcam. It merges deep learning and traditional ML, dynamically adjusting for lighting while highlighting objects and colors. Developed as a robotics perception prototype, it demonstrates integration of pre-trained models, real-time optimization, and modular vision task decomposition."
+    content = "This real-time system combines YOLOv8 object detection with KNN colour classification (trained on 865 named colours) via webcam. It merges deep learning and traditional ML, dynamically adjusting for lighting while highlighting objects and colours. Developed as a robotics perception prototype, it demonstrates integration of pre-trained models, real-time optimisation, and modular vision task decomposition."
     image = "images/object detection.jpg"
     badges = ["OpenCV", "YOLOv8", "KNN", "Computer Vision"]
     [[params.projects.items.links]]
@@ -194,7 +194,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Eco-Friendly Intra-Campus Monorail System Design"
-    content = "As project lead, I designed an eco-friendly intra-campus monorail for WSP, optimizing transport efficiency and sustainability. I conducted route analysis to maximize accessibility, minimize environmental impact, and integrate with existing infrastructure. The design featured high-capacity carriages with energy-efficient HVAC systems and elderly-friendly accommodations. Sustainable materials and propulsion methods were prioritized. Though conceptual, the project deepened my expertise in sustainable transport, infrastructure planning, and user-centered design—balancing efficiency, environmental responsibility, and passenger comfort."
+    content = "As project lead, I designed an eco-friendly intra-campus monorail for WSP, optimising transport efficiency and sustainability. I conducted route analysis to maximise accessibility, minimise environmental impact, and integrate with existing infrastructure. The design featured high-capacity carriages with energy-efficient HVAC systems and elderly-friendly accommodations. Sustainable materials and propulsion methods were prioritised. Though conceptual, the project deepened my expertise in sustainable transport, infrastructure planning, and user-centred design—balancing efficiency, environmental responsibility, and passenger comfort."
     image = "images/monorail.jpg"
     badges = ["CAD", "Automation", "Sustainable Design"]
     featured = { name = "Download Report", link = "/Monorail project report.pdf" }
@@ -210,7 +210,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Gymnastics Stamp-bug and Rover"
-    content = "I led an engineering team in developing a robotic gymnastics rover that synchronized dynamic LED light displays with live performances. To achieve seamless audio-visual integration, I designed control algorithms for real-time responsiveness and optimized the system through iterative testing. Using Siemens NX, I incorporated sustainable materials and energy-efficient modifications. The project delivered a novel performance-enhancing system while advancing my expertise in embedded programming, robotics, and eco-conscious design. As the team lead, I also coordinated cross-disciplinary collaboration, balancing technical constraints with creative objectives."
+    content = "I led an engineering team in developing a robotic gymnastics rover that synchronised dynamic LED light displays with live performances. To achieve seamless audio-visual integration, I designed control algorithms for real-time responsiveness and optimised the system through iterative testing. Using Siemens NX, I incorporated sustainable materials and energy-efficient modifications. The project delivered a novel performance-enhancing system while advancing my expertise in embedded programming, robotics, and eco-conscious design. As the team lead, I also coordinated cross-disciplinary collaboration, balancing technical constraints with creative objectives."
     image = "images/stamp-bug.jpg"
     badges = ["Robotics", "Control Systems", "Mechatronics"]
     featured = { name = "Download Datasheet", link = "/Datasheet for stampbug.pdf" }
