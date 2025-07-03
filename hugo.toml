@@ -56,7 +56,6 @@ enableRobotsTXT = true
   [params.about]
     enable = true
     title = "About Me"
-    weight = 1
     image = "images/my-photo4.jpg"
     content = """
 As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I offer a unique perspective shaped by diverse cultural and technical environments. My 15 years in Zambia developed my ability to deliver resourceful, practical solutions in settings with limited infrastructure, fostering a strong focus on sustainable design and real-world impact.
@@ -68,7 +67,6 @@ These experiences drive my commitment to developing technologies that address gl
 
 [params.education]
   enable = true
-  weight = 2
 
   [[params.education.items]]
     title = "MSc Robotics and Artificial Intelligence"
@@ -98,7 +96,6 @@ Key Modules:
 
   [params.achievements]
     enable = true
-    weight = 5
     title = "Certifications"
     [[params.achievements.items]]
       title = "EV Engineering Advanced Job Simulation"
@@ -130,7 +127,6 @@ Key Modules:
 
   [params.projects]
   enable = true
-  weight = 3
   [[params.projects.items]]
     title = "Engineering Job Finder"
     content = "Created a platform for finding engineering jobs using web scraping and NLP. Features include real-time job data retrieval from APIs, skills matching from CVs using NLP, and an interactive Streamlit interface with custom filters."
@@ -174,18 +170,7 @@ Key Modules:
 
  [params.experience]
   enable = true
-  weight = 4
   title = "Work Experience"
-  [[params.experience.items]]
-    job = "Retail Assistant"
-    company = "Smyths Toy Store"
-    date = "Nov 2024 - Dec 2024"
-    content = """
-- Enhanced customer experience by resolving complex product enquiries and guiding purchasing decisions through expert product knowledge
-- Optimised store operations by reorganising high-traffic displays and implementing efficient stock tracking methods
-- Maintained visual merchandising standards that increased product visibility and sales performance
-- Streamlined stock management processes, reducing discrepancies and improving replenishment efficiency
-"""
 
   [[params.experience.items]]
     job = "Control Engineering Intern"
@@ -196,6 +181,17 @@ Key Modules:
 - Engineered a fully functional traffic light system using Siemens PLC and ladder logic, demonstrating advanced automation skills
 - Mastered CODESYS programming using structured text and ladder logic to streamline industrial processes
 - Presented comprehensive project results to management, showcasing problem-solving and technical expertise in PLC systems
+"""
+
+  [[params.experience.items]]
+    job = "Technical Team Assistant"
+    company = "First Quantum Minerals Ltd"
+    date = "Nov 2018 - Dec 2018"
+    content = """
+- Improved machinery reliability through proactive monitoring and maintenance in copper smelting operations
+- Enhanced furnace performance by optimising air cooler functionality and increasing airflow efficiency
+- Prevented operational disruptions by identifying and reporting equipment abnormalities to supervisors
+- Maintained 98% equipment uptime through rigorous adherence to safety and maintenance protocols
 """
 
   [[params.experience.items]]
@@ -210,20 +206,19 @@ Key Modules:
 """
 
   [[params.experience.items]]
-    job = "Technical Team Assistant"
-    company = "First Quantum Minerals Ltd"
-    date = "Nov 2018 - Dec 2018"
+    job = "Retail Assistant"
+    company = "Smyths Toy Store"
+    date = "Nov 2024 - Dec 2024"
     content = """
-- Improved machinery reliability through proactive monitoring and maintenance in copper smelting operations
-- Enhanced furnace performance by optimising air cooler functionality and increasing airflow efficiency
-- Prevented operational disruptions by identifying and reporting equipment abnormalities to supervisors
-- Maintained 98% equipment uptime through rigorous adherence to safety and maintenance protocols
+- Enhanced customer experience by resolving complex product enquiries and guiding purchasing decisions through expert product knowledge
+- Optimised store operations by reorganising high-traffic displays and implementing efficient stock tracking methods
+- Maintained visual merchandising standards that increased product visibility and sales performance
+- Streamlined stock management processes, reducing discrepancies and improving replenishment efficiency
 """
 
 
   [params.contact]
     enable = true
-    weight = 6
     content = "My inbox is always open for collaboration, questions, or just a friendly chat!"
     btnName = "Email Me"
     btnLink = "mailto:stainesr.27@outlook.com"
