@@ -67,7 +67,6 @@ These experiences drive my commitment to developing technologies that address gl
 
 [params.education]
   enable = true
-  title = "Work Experience"
 
   [[params.education.items]]
     title = "MSc Robotics and Artificial Intelligence"
@@ -171,6 +170,7 @@ Key Modules:
 
  [params.experience]
   enable = true
+  title = "Work Experience"
   [[params.experience.items]]
     job = "Retail Assistant"
     company = "Smyths Toy Store"
