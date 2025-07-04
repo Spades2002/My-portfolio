@@ -101,7 +101,8 @@ Key Modules:
 - Programming
 - Interfacing with Mechatronics Systems
 """
-
+    [params.education.items.school]
+      name = "Loughborough University"
 
   [params.achievements]
     enable = true
