@@ -37,7 +37,7 @@ enableRobotsTXT = true
     intro = "Hi, my name is"
     title = "Staines Rajith"
     subtitle = "Graduate Robotics, Mechatronics & Control Engineer"
-    content = "Mechatronics specialist with a passion for automation, robotics, and data-driven systems. Proven experience with industrial PLCs, embedded programming, and AI, aiming to push the boundaries of autonomous technologies."
+    content = "Mechatronics specialist with a passion for automation, robotics, and data-driven systems. Proven experience with industrial PLCs, embedded programming, and real-time control systems."
     image = "images/my-photo.jpg"
     bottomImage.enable = true
     [params.hero.button]
@@ -58,11 +58,11 @@ enableRobotsTXT = true
     title = "About Me"
     image = "images/my-photo4.jpg"
     content = """
-As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I offer a unique perspective shaped by diverse cultural and technical environments. My 15 years in Zambia developed my ability to deliver resourceful, practical solutions in settings with limited infrastructure, fostering a strong focus on sustainable design and real-world impact.
+As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I bring a broad perspective shaped by working in diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of developing practical, resourceful solutions in settings with limited infrastructure, which has shaped my interest in sustainable design and real-world impact.
 
-My core expertise lies in automation, control systems, and robotics — including PLCs, ROS, and computer vision — with an emphasis on adaptable, scalable solutions. Beyond engineering, I bring creative discipline as a classically trained musician and competitive focus from pursuits such as mountain biking, squash, and cross-country running.
+My strengths lies in automation, control systems, and robotics — including PLCs, ROS, and computer vision. Furthermore, as a classically trained musician, I've demonstrated discipline and a commitment to developing a well-rounded skillset. My competitive focus has also been sharpened through pursuits such as mountain biking, squash and cross-country running.
 
-These experiences drive my commitment to developing technologies that address global challenges and create meaningful, cross-context solutions.
+These experiences motivate me to work on technologies that help tackle real-world problems and make a positive impact in different areas..
 """
 
 [params.education]
@@ -71,8 +71,16 @@ These experiences drive my commitment to developing technologies that address gl
   [[params.education.items]]
     title = "MSc Robotics and Artificial Intelligence"
     date = "Sep 2025 - Sep 2026"
-    content = "Currently pursuing advanced studies in Robotics and AI"
-    
+    content = """
+Currently pursuing advanced studies in Robotics and AI
+
+Key Modules:
+- Cognitive Robotics
+- Machine Learning and Artificial Intelligence 
+- Medical Robotics and Surgical Techniques 
+- Deep Learning for Data and Image Analysis 
+"""
+
     [params.education.items.school]
       name = "Queen Mary University of London"
 
@@ -89,7 +97,8 @@ Key Projects:
 Key Modules:
 - State Space Control
 - Manufacturing Automation and Control Systems
-- Electronics, Programming
+- Electronics 
+- Programming
 - Interfacing with Mechatronics Systems
 """
 
