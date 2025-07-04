@@ -163,15 +163,16 @@ Key Modules:
     featured = { name = "Download Report", link = "/Monorail project report.pdf" }
 
 
-  [[params.projects.items]]
-    title = "Roll-angle Measurement Device"
-    content = "In this project, I developed a fibre optic Sagnac interferometer to measure axial rotation with high precision. After reviewing existing sensors and literature, I used an oscilloscope to capture and analyse data, validating the system’s performance. The setup leveraged the Sagnac effect to detect angular velocity, which was integrated to derive the roll angle. While the system accurately measured angular distance, it couldn’t determine rotation direction. The project enhanced my expertise in optical sensing and precision instrumentation."
-    image = "images/roll-angle.png"
-    badges = ["Sensors", "MATLAB", "Data Analysis"]
-    featured = { name = "Download Literature Review", link = "/Interferometer literature review.pdf" }
-    [[params.projects.items.links]]
-      icon = "fab fa-github"
-      url = "https://github.com/Spades2002/Sagnac-Interferometer"
+[[params.projects.items]]
+  title = "Roll-angle Measurement Device"
+  content = "In this project, I developed a fibre optic Sagnac interferometer to measure axial rotation with high precision. After reviewing existing sensors and literature, I used an oscilloscope to capture and analyse data, validating the system’s performance. The setup leveraged the Sagnac effect to detect angular velocity, which was integrated to derive the roll angle. While the system accurately measured angular distance, it couldn’t determine rotation direction. The project enhanced my expertise in optical sensing and precision instrumentation."
+  image = "images/roll-angle.png"
+  badges = ["Sensors", "MATLAB", "Data Analysis"]
+  featured = { name = "Download Literature Review", link = "/Interferometer literature review.pdf" }
+  
+  [[params.projects.items.links]]
+    icon = "fab fa-github"
+    url = "https://github.com/Spades2002/Sagnac-Interferometer"
 
 
   [[params.projects.items]]
