@@ -169,6 +169,9 @@ Key Modules:
     image = "images/roll-angle.png"
     badges = ["Sensors", "MATLAB", "Data Analysis"]
     featured = { name = "Download Literature Review", link = "/Interferometer literature review.pdf" }
+    [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/Spades2002/Sagnac-Interferometer"
 
 
   [[params.projects.items]]
