@@ -58,11 +58,11 @@ enableRobotsTXT = true
     title = "About Me"
     image = "images/my-photo4.jpg"
     content = """
-As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I bring a broad perspective shaped by working in diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of developing practical, resourceful solutions in settings with limited infrastructure, which has shaped my interest in sustainable design and real-world impact.
+As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I bring a broad perspective shaped by working in diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of developing practical, resourceful solutions in settings with limited infrastructure, which has shaped my interest in sustainable design with real-world impact.
 
-My strengths lies in automation, control systems, and robotics — including PLCs, ROS, and computer vision. Furthermore, as a classically trained musician, I've demonstrated discipline and a commitment to developing a well-rounded skillset. My competitive focus has also been sharpened through pursuits such as mountain biking, squash and cross-country running.
+My strengths lie in automation, control systems, and robotics — including PLCs, ROS, and computer vision. Furthermore, as a classically trained musician, I've demonstrated discipline and a commitment to developing a well-rounded skillset. My competitive focus has also been sharpened through pursuits such as mountain biking, squash and cross-country running.
 
-These experiences motivate me to work on technologies that help tackle real-world problems and make a positive impact in different areas.
+These experiences motivate me to work on technologies that help tackle real-world problems and make a positive impact in different sectors.
 """
 
 [params.education]
@@ -157,7 +157,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Eco-Friendly Intra-Campus Monorail System Design"
-    content = "As project lead, I designed an eco-friendly intra-campus monorail for WSP, optimising transport efficiency and sustainability. I conducted route analysis to maximise accessibility, minimise environmental impact, and integrate with existing infrastructure. The design featured high-capacity carriages with energy-efficient HVAC systems and elderly-friendly accommodations. Sustainable materials and propulsion methods were prioritised. Though conceptual, the project deepened my expertise in sustainable transport, infrastructure planning, and user-centred design—balancing efficiency, environmental responsibility, and passenger comfort."
+    content = "As project lead, I designed an eco-friendly intra-campus monorail for WSP, optimising transport efficiency and sustainability. I conducted route analysis to maximise accessibility, minimise environmental impact, and integrate with existing infrastructure. The design featured high-capacity carriages with energy-efficient HVAC systems and elderly-friendly accommodations. Sustainable materials and propulsion methods were prioritised. Though conceptual, the project deepened my understanding of sustainable transport, infrastructure planning, and user-centred design—balancing efficiency, environmental responsibility, and passenger comfort."
     image = "images/monorail.jpg"
     badges = ["CAD", "Automation", "Sustainable Design"]
     featured = { name = "Download Report", link = "/Monorail project report.pdf" }
@@ -165,7 +165,7 @@ Key Modules:
 
 [[params.projects.items]]
   title = "Roll-angle Measurement Device"
-  content = "In this project, I developed a fibre optic Sagnac interferometer to measure axial rotation with high precision. After reviewing existing sensors and literature, I used an oscilloscope to capture and analyse data, validating the system’s performance. The setup leveraged the Sagnac effect to detect angular velocity, which was integrated to derive the roll angle. While the system accurately measured angular distance, it couldn’t determine rotation direction. The project enhanced my expertise in optical sensing and precision instrumentation."
+  content = "In this project, I developed a fibre optic Sagnac interferometer to measure axial rotation with high precision. After reviewing existing sensors and literature, I used an oscilloscope to capture and analyse data, validating the system’s performance. The setup leveraged the Sagnac effect to detect angular velocity, which was integrated to derive the roll angle. While the system accurately measured angular distance, it couldn’t determine rotation direction. The project enhanced my strengths in optical sensing and precision instrumentation."
   image = "images/roll-angle.png"
   badges = ["Sensors", "MATLAB", "Data Analysis"]
   featured = { name = "Download Literature Review", link = "/Interferometer literature review.pdf" }
@@ -177,7 +177,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Gymnastics Stamp-bug and Rover"
-    content = "I led an engineering team in developing a robotic gymnastics rover that synchronised dynamic LED light displays with live performances. To achieve seamless audio-visual integration, I designed control algorithms for real-time responsiveness and optimised the system through iterative testing. Using Siemens NX, I incorporated sustainable materials and energy-efficient modifications. The project delivered a novel performance-enhancing system while advancing my expertise in embedded programming, robotics, and eco-conscious design. As the team lead, I also coordinated cross-disciplinary collaboration, balancing technical constraints with creative objectives."
+    content = "I led an engineering team in developing a robotic gymnastics rover that synchronised dynamic LED light displays with live performances. To achieve seamless audio-visual integration, I designed control algorithms for real-time responsiveness and optimised the system through iterative testing. Using Siemens NX, I incorporated sustainable materials and energy-efficient modifications. The project delivered a novel performance-enhancing system while advancing my interests in embedded programming, robotics, and eco-conscious design. As the team lead, I also coordinated cross-disciplinary collaboration, balancing technical constraints with creative objectives."
     image = "images/stamp-bug.jpg"
     badges = ["Robotics", "Control Systems", "Mechatronics"]
     featured = { name = "Download Datasheet", link = "/Datasheet for stampbug.pdf" }
@@ -194,7 +194,7 @@ Key Modules:
 - Optimised industrial equipment performance by collaborating with supervisors to maintain peak copper smelter efficiency
 - Engineered a fully functional traffic light system using Siemens PLC and ladder logic, demonstrating advanced automation skills
 - Mastered CODESYS programming using structured text and ladder logic to streamline industrial processes
-- Presented comprehensive project results to management, showcasing problem-solving and technical expertise in PLC systems
+- Presented comprehensive project results to management, showcasing problem-solving and technical strengths in PLC systems
 """
 
   [[params.experience.items]]
@@ -229,7 +229,6 @@ Key Modules:
 - Maintained visual merchandising standards that increased product visibility and sales performance
 - Streamlined stock management processes, reducing discrepancies and improving replenishment efficiency
 """
-
 
   [params.contact]
     enable = true
