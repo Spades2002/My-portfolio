@@ -38,7 +38,7 @@ enableRobotsTXT = true
     title = "Staines Rajith"
     subtitle = "Graduate Robotics, Mechatronics & Control Engineer"
     content = "Mechatronics specialist with a passion for automation, robotics, and data-driven systems. Proven experience with industrial PLCs, embedded programming, and real-time control systems."
-    image = "images/my-photo.jpg"
+    image = "images/image1.jpg"
     bottomImage.enable = true
     [params.hero.button]
       enable = true
