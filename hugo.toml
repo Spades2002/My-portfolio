@@ -36,8 +36,8 @@ enableRobotsTXT = true
     enable = true
     intro = "Hi, my name is"
     title = "Staines Rajith"
-    subtitle = "Graduate Robotics, Mechatronics & Control Engineer"
-    content = "Mechatronics specialist with a passion for automation, robotics, and data-driven systems. Proven experience with industrial PLCs, embedded programming, and real-time control systems."
+    subtitle = "MSc Robotics and AI Student"
+    content = "MSc student in Robotics and Artificial Intelligence with a passion for automation, robotics, and data-driven systems. Experienced in industrial PLCs, embedded programming, and real-time control systems."
     image = "images/image1.JPG"
     bottomImage.enable = true
     [params.hero.button]
@@ -58,11 +58,11 @@ enableRobotsTXT = true
     title = "About Me"
     image = "images/my-photo4.jpg"
     content = """
-As a Robotics and Control Engineering graduate with international experience across India, Zambia, and the UK, I bring a broad perspective shaped by working in diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of developing practical, resourceful solutions in settings with limited infrastructure, which has shaped my interest in sustainable design with real-world impact.
+As a Robotics and Artificial Intelligence MSc student with international experience across India, Zambia, and the UK, I bring a broad perspective shaped by working in diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of developing practical, resourceful solutions in settings with limited infrastructure, which has fuelled my interest in sustainable design with real-world impact.
 
-My strengths lie in automation, control systems, and robotics — including PLCs, ROS, and computer vision. Furthermore, as a classically trained musician, I've demonstrated discipline and a commitment to developing a well-rounded skillset. My competitive focus has also been sharpened through pursuits such as mountain biking, squash and cross-country running.
+My strengths lie in automation, control systems, and robotics — including PLCs, ROS, and computer vision. In addition, as a classically trained musician, I have demonstrated discipline and a commitment to building a well-rounded skill set. My competitive drive has also been honed through pursuits such as mountain biking, squash, and cross-country running.
 
-These experiences motivate me to work on technologies that help tackle real-world problems and make a positive impact in different sectors.
+These experiences motivate me to work on technologies that address real-world challenges and contribute positively across different sectors.
 """
 
 [params.education]
