@@ -7,7 +7,7 @@ enableRobotsTXT = true
 
 [params]
   title = "Staines Rajith"
-  description = "Graduate Robotics, Mechatronics and Control Engineer"
+  description = "MSc Robotics and AI Student"
   favicon = "images/favicon.ico"
   useBootstrapCDN = false
   animate = true
