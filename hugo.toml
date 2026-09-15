@@ -139,7 +139,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Photoelastic Tactile Sensor for a Robotic Palm"
-    content = "For my MSc research project, I designed and built a compact photoelastic palm sensor to estimate contact force and position from visual stress patterns. An angled mirror folded the optical path towards a side-mounted camera, reducing space beneath the sensing surface. I collected synchronised indentation data and evaluated four machine learning architectures at held-out contact locations, achieving a normal-force MAE of 0.244 N with a differential-image model and sub-millimetre localisation with a separate two-stage model."
+    content = "Designed and built a compact photoelastic palm sensor in collaboration with Shadow Robotics, addressing space constraints through folded optics. Automated indentation and synchronised data collection to evaluate four learning architectures, achieving a lowest normal-force MAE of 0.244 N and sub-millimetre localisation with separate models at held-out contact locations."
     image = "images/Tactile Sensor.jpg"
     badges = ["MSc Research", "Tactile Sensing", "Computer Vision", "Deep Learning"]
     featured = { name = "Download Dissertation", link = "/Photoelastic Tactile Sensor.pdf" }
@@ -149,7 +149,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Few-Shot Medical Image Segmentation"
-    content = "As part of a university group project, I investigated how deep learning can segment anatomical structures in MRI images using only a few labelled examples, addressing the challenge of scarce expert annotations. We implemented and compared a supervised U-Net baseline with Reptile meta-learning, which learns an initialisation that can adapt quickly to new segmentation tasks. Both approaches combined binary cross-entropy and Dice loss to support accurate segmentation of small structures. We evaluated adaptation with varying numbers of labelled images, using Dice scores and visual comparisons on held-out query slices to assess segmentation quality."
+    content = "Collaborated on a group project investigating MRI segmentation with limited labelled data. Implemented and compared supervised U-Net and Reptile meta-learning approaches, combining binary cross-entropy and Dice loss. Evaluated adaptation across different support-set sizes using held-out Dice scores and visual comparisons to assess few-shot segmentation performance."
     image = "images/Deep-learning.jpg"
     badges = ["Medical Imaging", "U-Net", "Meta-Learning", "PyTorch"]
     [[params.projects.items.links]]
@@ -158,7 +158,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "UKSEDS Olympus Rover Trials"
-    content = "As Vice Team Lead and Electrical Engineer, I contributed to an extracurricular team project developing a rover for the UKSEDS Olympus Rover Trials. The rover combined Raspberry Pi control with motor drivers, obstacle sensing and a camera system. Its base-station software supported remote driving and live telemetry, alongside image capture and mission-data export. I helped coordinate development across the team and contributed to the electrical design documented in our Critical Design Review."
+    content = "Led electrical subsystem development as Vice Lead and Electrical Team Lead for a competition rover. Designed power distribution and coordinated hardware integration, resolving faults through system-level testing. Contributed to the team placing third overall at the UKSEDS Olympus Rover Trials Finals at RAL Space and receiving the Best Critical Design Review Award."
     image = "images/Rover.jpg"
     badges = ["Extracurricular Project", "Team Leadership", "Raspberry Pi", "Robotics"]
     featured = { name = "Download Design Review", link = "/ORT - CDR.pdf" }
@@ -168,8 +168,8 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Modular Lunar Augmentation System"
-    content = "Led a group to the finals of an Airbus-hosted design and proposal competition with a modular lower-limb system for lunar and orbital operations. Our concept proposed interchangeable interfaces for prosthetic support and astronaut augmentation, incorporating a variable-impedance knee and protection against lunar dust. I coordinated the team's technical feasibility study and business proposal, connecting the engineering concept with a manufacturing and qualification strategy. The project remained at the design and proposal stage. [Read the Business Report](</Business Report(1).pdf>)."
-     image = "images/Exoskeleton.jpg"
+    content = "Led a team to the finals of an Airbus-hosted design competition with a modular lunar mobility concept for prosthetic support and astronaut augmentation. Coordinated the technical feasibility study and business proposal, defining a variable-impedance knee and a modular manufacturing strategy. Delivered a concept-stage proposal addressing engineering feasibility and commercial viability."
+    image = "images/Exoskeleton.jpg"
     badges = ["Airbus Competition Finalist", "Team Lead", "Concept Design", "Space Robotics"]
     featured = { name = "Download Technical Study", link = "/Technical Feasibility Study(1).pdf" }
     [[params.projects.items.links]]
@@ -178,7 +178,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Engineering Job Finder"
-    content = "Created a platform for finding engineering jobs using web scraping and NLP. Features include real-time job data retrieval from APIs, skills matching from CVs using NLP, and an interactive Streamlit interface with custom filters."
+    content = "Developed a Streamlit application to help engineering graduates find relevant entry-level roles. Integrated spaCy-based CV skills extraction with SerpApi job searches, enabling users to upload a PDF CV and retrieve matching UK vacancies with application links."
     image = "images/jobfinder.png"
     badges = ["Python", "NLP", "Web Scraping", "Streamlit"]
     [[params.projects.items.links]]
@@ -187,7 +187,7 @@ Key Modules:
   
   [[params.projects.items]]
     title = "Real-time Colour and Object Detection"
-    content = "This real-time system combines YOLOv8 object detection with KNN colour classification (trained on 865 named colours) via webcam. It merges deep learning and traditional ML, dynamically adjusting for lighting while highlighting objects and colours. Developed as a robotics perception prototype, it demonstrates integration of pre-trained models, real-time optimisation, and modular vision task decomposition."
+    content = "Developed a real-time robotics perception prototype combining YOLOv8 object detection with KNN colour classification trained on 865 named colours. Integrated both models with OpenCV webcam processing, enabling simultaneous object identification and colour labelling within a modular vision pipeline."
     image = "images/object detection.jpg"
     badges = ["OpenCV", "YOLOv8", "KNN", "Computer Vision"]
     [[params.projects.items.links]]
@@ -196,7 +196,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Eco-Friendly Intra-Campus Monorail System Design"
-    content = "As project lead, I designed an eco-friendly intra-campus monorail for WSP, optimising transport efficiency and sustainability. I conducted route analysis to maximise accessibility, minimise environmental impact, and integrate with existing infrastructure. The design featured high-capacity carriages with energy-efficient HVAC systems and elderly-friendly accommodations. Sustainable materials and propulsion methods were prioritised. Though conceptual, the project deepened my understanding of sustainable transport, infrastructure planning, and user-centred design—balancing efficiency, environmental responsibility, and passenger comfort."
+    content = "Led the conceptual design of an eco-friendly campus monorail for WSP, addressing transport accessibility and sustainability. Analysed routes and developed carriage concepts incorporating energy-efficient systems and accessible features, delivering a proposal that balanced passenger needs with infrastructure and environmental constraints."
     image = "images/monorail.jpg"
     badges = ["CAD", "Automation", "Sustainable Design"]
     featured = { name = "Download Report", link = "/Monorail project report.pdf" }
@@ -204,7 +204,7 @@ Key Modules:
 
 [[params.projects.items]]
   title = "Roll-angle Measurement Device"
-  content = "In this project, I developed a fibre optic Sagnac interferometer to measure axial rotation with high precision. After reviewing existing sensors and literature, I used an oscilloscope to capture and analyse data, validating the system’s performance. The setup leveraged the Sagnac effect to detect angular velocity, which was integrated to derive the roll angle. While the system accurately measured angular distance, it couldn’t determine rotation direction. The project enhanced my strengths in optical sensing and precision instrumentation."
+  content = "Developed a fibre-optic Sagnac interferometer to investigate roll-angle measurement. Captured and analysed oscilloscope data, integrating measured angular velocity to estimate angular displacement. Demonstrated angular-distance measurement and identified directional ambiguity as a limitation of the system."
   image = "images/roll-angle.png"
   badges = ["Sensors", "MATLAB", "Data Analysis"]
   featured = { name = "Download Literature Review", link = "/Interferometer literature review.pdf" }
@@ -216,7 +216,7 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Gymnastics Stamp-bug and Rover"
-    content = "I led an engineering team in developing a robotic gymnastics rover that synchronised dynamic LED light displays with live performances. To achieve seamless audio-visual integration, I designed control algorithms for real-time responsiveness and optimised the system through iterative testing. Using Siemens NX, I incorporated sustainable materials and energy-efficient modifications. The project delivered a novel performance-enhancing system while advancing my interests in embedded programming, robotics, and eco-conscious design. As the team lead, I also coordinated cross-disciplinary collaboration, balancing technical constraints with creative objectives."
+    content = "Led a team developing a robotic gymnastics rover to synchronise LED displays with live performances. Designed control algorithms and refined the mechanical design using Siemens NX, coordinating integration and iterative testing to deliver a responsive robotic performance system."
     image = "images/stamp-bug.jpg"
     badges = ["Robotics", "Control Systems", "Mechatronics"]
     featured = { name = "Download Datasheet", link = "/Datasheet for stampbug.pdf" }
