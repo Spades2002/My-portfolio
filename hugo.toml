@@ -136,6 +136,47 @@ Key Modules:
 
   [params.projects]
   enable = true
+
+  [[params.projects.items]]
+    title = "Photoelastic Tactile Sensor for a Robotic Palm"
+    content = "For my MSc research project, I designed and built a compact photoelastic palm sensor to estimate contact force and position from visual stress patterns. An angled mirror folded the optical path towards a side-mounted camera, reducing space beneath the sensing surface. I collected synchronised indentation data and evaluated four machine learning architectures at held-out contact locations, achieving a normal-force MAE of 0.244 N with a differential-image model and sub-millimetre localisation with a separate two-stage model."
+    # Add a project image when available: image = "images/photoelastic-palm.jpg"
+    badges = ["MSc Research", "Tactile Sensing", "Computer Vision", "Deep Learning"]
+    featured = { name = "Download Dissertation", link = "/documents/photoelastic-palm-dissertation.pdf" }
+    [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/Spades2002/Photoelastic-Palm-Sensor"
+
+  [[params.projects.items]]
+    title = "Deep Learning Group Project"
+    # Replace this general description once the project README or report is available.
+    content = "Completed a university group project in deep learning, working collaboratively as part of the project team."
+    # Add a project image when available: image = "images/deep-learning.jpg"
+    badges = ["Deep Learning", "Group Project"]
+    [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/BrandonR77/Deep-Learning"
+
+  [[params.projects.items]]
+    title = "UKSEDS Olympus Rover Trials"
+    content = "As Vice Team Lead and Electrical Engineer, I contributed to an extracurricular team project developing a rover for the UKSEDS Olympus Rover Trials. The rover combined Raspberry Pi control with motor drivers, obstacle sensing and a camera system. Its base-station software supported remote driving and live telemetry, alongside image capture and mission-data export. I helped coordinate development across the team and contributed to the electrical design documented in our Critical Design Review."
+    # Add a project image when available: image = "images/olympus-rover.jpg"
+    badges = ["Extracurricular Project", "Team Leadership", "Raspberry Pi", "Robotics"]
+    featured = { name = "Download Design Review", link = "/documents/rover-critical-design-review.pdf" }
+    [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/ORTadvance/Rover"
+
+  [[params.projects.items]]
+    title = "Modular Lunar Augmentation System"
+    content = "Led a group to the finals of an Airbus-hosted design and proposal competition with a modular lower-limb system for lunar and orbital operations. Our concept proposed interchangeable interfaces for prosthetic support and astronaut augmentation, incorporating a variable-impedance knee and protection against lunar dust. I coordinated the team's technical feasibility study and business proposal, connecting the engineering concept with a manufacturing and qualification strategy. The project remained at the design and proposal stage. [Read the Business Report](/documents/lunar-augmentation-business-report.pdf)."
+    # Add a project image when available: image = "images/lunar-augmentation.jpg"
+    badges = ["Airbus Competition Finalist", "Team Lead", "Concept Design", "Space Robotics"]
+    featured = { name = "Download Technical Study", link = "/documents/lunar-augmentation-technical-study.pdf" }
+    [[params.projects.items.links]]
+      icon = "fas fa-file-pdf"
+      url = "/documents/lunar-augmentation-business-report.pdf"
+
   [[params.projects.items]]
     title = "Engineering Job Finder"
     content = "Created a platform for finding engineering jobs using web scraping and NLP. Features include real-time job data retrieval from APIs, skills matching from CVs using NLP, and an interactive Streamlit interface with custom filters."
