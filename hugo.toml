@@ -140,7 +140,7 @@ Key Modules:
   [[params.projects.items]]
     title = "Photoelastic Tactile Sensor for a Robotic Palm"
     content = "For my MSc research project, I designed and built a compact photoelastic palm sensor to estimate contact force and position from visual stress patterns. An angled mirror folded the optical path towards a side-mounted camera, reducing space beneath the sensing surface. I collected synchronised indentation data and evaluated four machine learning architectures at held-out contact locations, achieving a normal-force MAE of 0.244 N with a differential-image model and sub-millimetre localisation with a separate two-stage model."
-    # Add a project image when available: image = "images/photoelastic-palm.jpg"
+    image = "images/Tactile Sensor.jpg"
     badges = ["MSc Research", "Tactile Sensing", "Computer Vision", "Deep Learning"]
     featured = { name = "Download Dissertation", link = "/Photoelastic Tactile Sensor.pdf" }
     [[params.projects.items.links]]
@@ -149,9 +149,8 @@ Key Modules:
 
   [[params.projects.items]]
     title = "Few-Shot Medical Image Segmentation"
-    # Replace this general description once the project README or report is available.
     content = "As part of a university group project, I investigated how deep learning can segment anatomical structures in MRI images using only a few labelled examples, addressing the challenge of scarce expert annotations. We implemented and compared a supervised U-Net baseline with Reptile meta-learning, which learns an initialisation that can adapt quickly to new segmentation tasks. Both approaches combined binary cross-entropy and Dice loss to support accurate segmentation of small structures. We evaluated adaptation with varying numbers of labelled images, using Dice scores and visual comparisons on held-out query slices to assess segmentation quality."
-    # Add a project image when available: image = "images/deep-learning.jpg"
+    image = "images/Deep-learning.jpg"
     badges = ["Medical Imaging", "U-Net", "Meta-Learning", "PyTorch"]
     [[params.projects.items.links]]
       icon = "fab fa-github"
@@ -160,7 +159,7 @@ Key Modules:
   [[params.projects.items]]
     title = "UKSEDS Olympus Rover Trials"
     content = "As Vice Team Lead and Electrical Engineer, I contributed to an extracurricular team project developing a rover for the UKSEDS Olympus Rover Trials. The rover combined Raspberry Pi control with motor drivers, obstacle sensing and a camera system. Its base-station software supported remote driving and live telemetry, alongside image capture and mission-data export. I helped coordinate development across the team and contributed to the electrical design documented in our Critical Design Review."
-    # Add a project image when available: image = "images/olympus-rover.jpg"
+    image = "images/Rover.jpg"
     badges = ["Extracurricular Project", "Team Leadership", "Raspberry Pi", "Robotics"]
     featured = { name = "Download Design Review", link = "/ORT - CDR.pdf" }
     [[params.projects.items.links]]
@@ -170,7 +169,7 @@ Key Modules:
   [[params.projects.items]]
     title = "Modular Lunar Augmentation System"
     content = "Led a group to the finals of an Airbus-hosted design and proposal competition with a modular lower-limb system for lunar and orbital operations. Our concept proposed interchangeable interfaces for prosthetic support and astronaut augmentation, incorporating a variable-impedance knee and protection against lunar dust. I coordinated the team's technical feasibility study and business proposal, connecting the engineering concept with a manufacturing and qualification strategy. The project remained at the design and proposal stage. [Read the Business Report](</Business Report(1).pdf>)."
-    # Add a project image when available: image = "images/lunar-augmentation.jpg"
+     image = "images/Exoskeleton.jpg"
     badges = ["Airbus Competition Finalist", "Team Lead", "Concept Design", "Space Robotics"]
     featured = { name = "Download Technical Study", link = "/Technical Feasibility Study(1).pdf" }
     [[params.projects.items.links]]
