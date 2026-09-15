@@ -7,7 +7,7 @@ enableRobotsTXT = true
 
 [params]
   title = "Staines Rajith"
-  description = "MSc Robotics and AI Student"
+  description = "MSc Robotics and AI Graduate"
   favicon = "images/favicon.ico"
   useBootstrapCDN = false
   animate = true
@@ -36,8 +36,8 @@ enableRobotsTXT = true
     enable = true
     intro = "Hi, my name is"
     title = "Staines Rajith"
-    subtitle = "MSc Robotics and AI Student"
-    content = "MSc student in Robotics and Artificial Intelligence with a passion for automation, robotics, and data-driven systems. Experienced in industrial PLCs, embedded programming, and real-time control systems."
+    subtitle = "MSc Robotics and AI Graduate"
+    content = "MSc graduate in Robotics and Artificial Intelligence with a passion for automation, robotics, and data-driven systems. Experienced in industrial PLCs, embedded programming, and real-time control systems."
     image = "images/image1.JPG"
     bottomImage.enable = true
     [params.hero.button]
