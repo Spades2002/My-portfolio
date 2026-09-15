@@ -148,11 +148,11 @@ Key Modules:
       url = "https://github.com/Spades2002/Photoelastic-Palm-Sensor"
 
   [[params.projects.items]]
-    title = "Deep Learning Group Project"
+    title = "Few-Shot Medical Image Segmentation"
     # Replace this general description once the project README or report is available.
-    content = "Completed a university group project in deep learning, working collaboratively as part of the project team."
+    content = "As part of a university group project, I investigated how deep learning can segment anatomical structures in MRI images using only a few labelled examples, addressing the challenge of scarce expert annotations. We implemented and compared a supervised U-Net baseline with Reptile meta-learning, which learns an initialisation that can adapt quickly to new segmentation tasks. Both approaches combined binary cross-entropy and Dice loss to support accurate segmentation of small structures. We evaluated adaptation with varying numbers of labelled images, using Dice scores and visual comparisons on held-out query slices to assess segmentation quality."
     # Add a project image when available: image = "images/deep-learning.jpg"
-    badges = ["Deep Learning", "Group Project"]
+    badges = ["Medical Imaging", "U-Net", "Meta-Learning", "PyTorch"]
     [[params.projects.items.links]]
       icon = "fab fa-github"
       url = "https://github.com/BrandonR77/Deep-Learning"
