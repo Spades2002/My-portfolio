@@ -58,11 +58,11 @@ enableRobotsTXT = true
     title = "About Me"
     image = "images/my-photo4.jpg"
     content = """
-As a Robotics and Artificial Intelligence MSc student with international experience across India, Zambia, and the UK, I bring a broad perspective shaped by working in diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of developing practical, resourceful solutions in settings with limited infrastructure, which has fuelled my interest in sustainable design with real-world impact.
+As a Robotics and Artificial Intelligence MSc graduate from Queen Mary University of London, with international experience across India, Zambia and the UK, I bring a broad perspective shaped by diverse cultural and technical environments. Spending 15 years in Zambia taught me the value of practical, resourceful solutions, strengthening my interest in engineering with real-world impact.
 
-My strengths lie in automation, control systems, and robotics — including PLCs, ROS, and computer vision. In addition, as a classically trained musician, I have demonstrated discipline and a commitment to building a well-rounded skill set. My competitive drive has also been honed through pursuits such as mountain biking, squash, and cross-country running.
+My strengths lie in automation and robotics, supported by experience in industrial PLC programming and developing a photoelastic tactile sensor for a robotic palm. Alongside engineering, my classical music training has developed discipline and patience, while mountain biking and squash have strengthened my competitive drive.
 
-These experiences motivate me to work on technologies that address real-world challenges and contribute positively across different sectors.
+I am particularly interested in medical robotics and healthcare applications, and motivated to develop technologies that support people and improve everyday life.
 """
 
 [params.education]
@@ -72,7 +72,11 @@ These experiences motivate me to work on technologies that address real-world ch
     title = "MSc Robotics and Artificial Intelligence"
     date = "Sep 2025 - Sep 2026"
     content = """
-Currently pursuing advanced studies in Robotics and AI
+Key Projects:
+- Photoelastic tactile sensor
+- Electro-optical PPG system
+- Neural Network model predicting pedestrian behaviour
+- Few-Shot Learning in Medical Imaging
 
 Key Modules:
 - Cognitive Robotics
@@ -141,7 +145,7 @@ Key Modules:
     title = "Photoelastic Tactile Sensor for a Robotic Palm"
     content = "Designed and built a compact photoelastic palm sensor in collaboration with Shadow Robotics, addressing space constraints through folded optics. Automated indentation and synchronised data collection to evaluate four learning architectures, achieving a lowest normal-force MAE of 0.244 N and sub-millimetre localisation with separate models at held-out contact locations."
     image = "images/Tactile Sensor.jpg"
-    badges = ["MSc Research", "Tactile Sensing", "Computer Vision", "Deep Learning"]
+    badges = ["Soft Robotics","Tactile Sensing", "Computer Vision", "Deep Learning"]
     featured = { name = "Download Dissertation", link = "/Photoelastic Tactile Sensor.pdf" }
     [[params.projects.items.links]]
       icon = "fab fa-github"
@@ -160,7 +164,7 @@ Key Modules:
     title = "UKSEDS Olympus Rover Trials"
     content = "Led electrical subsystem development as Vice Lead and Electrical Team Lead for a competition rover. Designed power distribution and coordinated hardware integration, resolving faults through system-level testing. Contributed to the team placing third overall at the UKSEDS Olympus Rover Trials Finals at RAL Space and receiving the Best Critical Design Review Award."
     image = "images/Rover.jpg"
-    badges = ["Extracurricular Project", "Team Leadership", "Raspberry Pi", "Robotics"]
+    badges = ["Project management", "Raspberry Pi", "Electrical Debugging"]
     featured = { name = "Download Design Review", link = "/ORT - CDR.pdf" }
     [[params.projects.items.links]]
       icon = "fab fa-github"
@@ -170,12 +174,16 @@ Key Modules:
     title = "Modular Lunar Augmentation System"
     content = "Led a team to the finals of an Airbus-hosted design competition with a modular lunar mobility concept for prosthetic support and astronaut augmentation. Coordinated the technical feasibility study and business proposal, defining a variable-impedance knee and a modular manufacturing strategy. Delivered a concept-stage proposal addressing engineering feasibility and commercial viability."
     image = "images/Exoskeleton.jpg"
-    badges = ["Airbus Competition Finalist", "Team Lead", "Concept Design", "Space Robotics"]
-    featured = { name = "Download Technical Study", link = "/Technical Feasibility Study(1).pdf" }
+    badges = ["Airbus Competition", "Team Leadership", "Concept Design", "Space Robotics"]
     [[params.projects.items.links]]
       icon = "fas fa-file-pdf"
-      url = "/Business Report(1).pdf"
+      url = "/Technical Feasibility Study.pdf"
 
+    [[params.projects.items.links]]
+      icon = "fas fa-file-pdf"
+      url = "/Business Report.pdf"
+
+      
   [[params.projects.items]]
     title = "Engineering Job Finder"
     content = "Developed a Streamlit application to help engineering graduates find relevant entry-level roles. Integrated spaCy-based CV skills extraction with SerpApi job searches, enabling users to upload a PDF CV and retrieve matching UK vacancies with application links."
